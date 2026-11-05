@@ -1,0 +1,23 @@
+flowchart TD
+    subgraph Ingestion
+        D["PDF et images"] --> V["Vérification du contenu et des droits"]
+        V --> X["Extraction du texte et OCR si nécessaire"]
+        X --> P["Découpage en passages et figures"]
+        P --> I["Index avec sources, versions et groupes d’accès"]
+    end
+
+    subgraph Consultation
+        Q["Question et photo"] --> A["Vérification de l’identité et des droits"]
+        A --> R["Recherche dans les sources autorisées"]
+        I --> R
+        R --> E["Construction et vérification de la réponse"]
+        E --> S["Réponse sourcée ou demande de précision"]
+    end
+
+    subgraph Ticket
+        B["Brouillon de ticket"] --> H["Approbation humaine du contenu exact"]
+        H --> M["MCP : droits, accord et idempotence"]
+        M --> T["Ticket créé ou refus explicite"]
+    end
+
+    E --> B
