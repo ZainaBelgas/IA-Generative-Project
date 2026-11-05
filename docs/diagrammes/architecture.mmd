@@ -1,0 +1,21 @@
+flowchart TD
+    U["Interface : question et photo"] --> A["API : identité et droits"]
+    A --> O["Orchestrateur LangGraph"]
+
+    O --> V["Agent vision : observations"]
+    O --> R["Agent RAG : recherche documentaire"]
+    O --> M["Service MCP : contrôle des droits"]
+
+    R --> D["Documents et index autorisés"]
+    D --> R
+
+    V --> E["Vérification des preuves et citations"]
+    R --> E
+    M --> E
+
+    E --> Q["Réponse sourcée ou clarification"]
+    E --> T["Brouillon de ticket"]
+
+    T --> H["Approbation humaine du contenu exact"]
+    H --> C["MCP : vérifier accord et idempotence"]
+    C --> K["Création du ticket"]
