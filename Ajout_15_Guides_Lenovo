@@ -1,10 +1,1 @@
 
-AJOUT DE 15 GUIDES DE MAINTENANCE LENOVO
-
-1. Extraire ce ZIP.
-2. Lire les nouveaux PDF dans corpus/documents/famille_1/. Les guides sont pour ThinkPad T480, pas T14.
-3. Dans GitHub, se placer à la racine du dépôt puis Add file > Upload files. Glisser le dossier corpus, le dossier docs et README.md. Les fichiers de suivi du même nom seront remplacés, les anciens PDF et images déjà présents resteront.
-4. Le nouvel inventaire décrit 30 fichiers, et non les 44 références prévues auparavant. Les références précédentes sont archivées dans docs/inventaire_selection_precedente.csv.
-5. Après relecture effective, compléter verifie_par et corrections. Les versions françaises signalées comme traductions automatiques doivent être comparées à leur source.
-
-Les 15 PDF viennent d’iFixit. Les attributions et restrictions de licence sont conservées. Ne pas utiliser les données iFixit pour entraîner un modèle IA. Ce ZIP est un paquet de mise à jour GitHub, pas le ZIP complet à déposer sur Classroom.
