@@ -27,7 +27,7 @@ Le projet porte sur deux familles d’équipements :
 
 | Famille | Modèles de référence |
 |---|---|
-| Ordinateurs portables | Lenovo ThinkPad T14 Gen 2 / P14s Gen 2 |
+| Ordinateurs portables | Lenovo ThinkPad T480 (corpus principal) |
 | Tablettes | Lenovo TAB 2 A10-70 |
 
 MaintiDoc apporte une aide documentaire. L’interprétation d’une image ne suffit pas à confirmer une panne ; le technicien conserve la décision d’intervention.
@@ -52,3 +52,8 @@ Les documents et images de tiers conservent leurs licences et leurs attributions
 ## Avancement
 
 Le projet est au stade du cadrage, de l’organisation du corpus et de la conception de l’architecture. Les prochaines étapes portent sur la recherche documentaire, l’intégration multimodale, les outils de maintenance et l’évaluation.
+
+
+## Composition du corpus
+
+La sélection documentaire comprend 30 fichiers : 15 guides français ThinkPad T480, 6 guides Lenovo TAB 2 A10-70 en anglais, 6 photos de réparation tablette et 3 documents de test. Les versions T14/P14s sont conservées en réserve. Les traductions signalées comme automatiques sont indiquées dans l’inventaire et doivent être relues.

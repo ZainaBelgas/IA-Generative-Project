@@ -35,3 +35,12 @@ Action : renommer les copies de fichiers sans modifier leurs octets, exclure le 
 - Le lot screen types n’est pas un corpus Lenovo : écarté de la sélection.
 - Les conditions iFixit interdisent l’entraînement IA ; aucune autorisation supplémentaire n’est inventée.
 - verifie_par reste vide. L’audit technique n’atteste pas une relecture par Zainab.
+
+
+## P06 - Compléments de maintenance ordinateur (06/11/2026)
+Outil : ChatGPT, recherche web, API publique et exports PDF iFixit.
+Demande utilisateur : « ok lets do it right now Ajouter au moins 15 documents réutilisables, surtout pour les ordinateurs ».
+Méthode : rechercher des procédures Lenovo à licence explicite ; sélectionner quinze guides de la collection ThinkPad T480 ; interroger leurs métadonnées françaises ; télécharger les exports PDF français officiels ; contrôler l’ouverture, le modèle, la langue déclarée, les pages et les photos ; conserver les auteurs et la licence. Les fichiers PDF ne sont pas des textes synthétiques créés pour le projet.
+Résultat : 15 procédures T480 en français, dont 12 signalées par iFixit comme traductions automatiques non relues. Les trois autres ne portent pas ce signal dans les métadonnées ; cela ne constitue pas une validation humaine du projet. Aucun moteur de traduction précis n’est inventé.
+Cohérence : l’ordinateur du corpus principal devient le ThinkPad T480, toujours dans la famille ordinateurs portables Lenovo. Les sources T14/P14s et les 29 anciennes lignes non présentes restent conservées séparément comme réserve, sans être comptées dans le corpus de 30 fichiers. L’identifiant fictif PC-LEN-01 reste stable dans les tests et doit correspondre à ce modèle dans les historiques MCP. Les PDF, images et prérequis communs doivent rester groupés lors des partitions.
+Règles : CC BY-NC-SA 3.0 ; crédits obligatoires ; pas d’entraînement IA avec ces données selon iFixit ; relecture humaine et vérification des traductions avant admission. Le champ verifie_par reste vide tant que cette relecture n’a pas eu lieu.
